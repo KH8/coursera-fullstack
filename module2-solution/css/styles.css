@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Helvetica;
+}
+
+h1 {
+	text-align: center;
+}
+
+section {
+	background-color: gray;
+	border: 1px black solid;
+	margin: 5px 5px 5px 5px;
+	padding: 15px 10px 10px 10px;
+	position: relative;
+}
+
+.section-title {
+	position: absolute;
+	top: -1px;
+    right: -1px;
+	padding: 0px 20px 0px 20px;
+	background-color: red;
+	border: 1px black solid;
+}
+
+#chicken {
+	background-color: #d49899;
+}
+
+#beef {
+	background-color: #df4646;
+}
+
+#sushi {
+	background-color: #e4d09b;
+}
