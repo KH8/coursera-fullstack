@@ -8,23 +8,37 @@ body {
 
 h1 {
 	text-align: center;
+	font-size: 175%;
 }
 
 section {
-	background-color: gray;
-	border: 1px black solid;
-	margin: 5px 5px 5px 5px;
-	padding: 15px 10px 10px 10px;
 	position: relative;
+
+	margin: 5px 5px 5px 5px;
+	padding: 25px 10px 10px 10px;
+
+	background-color: gray;
+	border: 1px solid black;
 }
 
 .section-title {
 	position: absolute;
 	top: -1px;
     right: -1px;
-	padding: 0px 20px 0px 20px;
+
+    width: 150px;
+	
 	background-color: red;
 	border: 1px black solid;
+
+	text-align: center;
+	font-size: 125%;
+}
+
+@media (max-width: 200px) {
+	.section-title {
+	width: 80%;
+	}
 }
 
 #chicken {
