@@ -1,3 +1,8 @@
-section {
+.container-fluid section {
+	padding: 10px;
 	background-color: gray;
+}
+
+.container-fluid h1 {
+	margin: 10px 0 10px 0;
 }
