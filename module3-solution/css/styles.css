@@ -1,8 +1,12 @@
+#nav-list li a:hover {
+	background-color: gray;
+}
+
 .container-fluid section {
 	padding: 10px;
 	background-color: gray;
 }
 
 .container-fluid h1 {
-	margin: 10px 0 10px 0;
+	margin: 5px 0 20px 0;
 }
